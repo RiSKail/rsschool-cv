@@ -1,0 +1,95 @@
+body {
+    background-image: url(../img/bg.png);
+    background-color: #E5E5E5;
+    font-family: 'Lato', sans-serif !important;
+    font-size: 14px;
+    line-height: 20px;
+    color: #333;
+    margin: 0;
+}
+
+.main-wrapper {
+    width: 80%;
+    max-width: 650px;
+    margin: 30px auto;
+    height: 100%;
+}
+
+.user-header {
+    border-radius: 5px;
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    background: #ffff;
+    margin: 0 0 30px 0;
+    border: 1px solid #e7e7e7;
+    box-shadow: 0 1px 0 0 var(--steel_gray_120), 0 0 0 1px var(--steel_gray_80);
+}
+
+.img-polaroid {
+    padding: 4px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.img-circle {
+    border-radius: 500px;
+}
+
+#user-contact-info {
+    padding: 10px 0 0 10px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+#user-contact-info h1 {
+    margin: 10px 0;
+    font-weight: bold;
+    font-size: 38.5px;
+    line-height: 20px;
+    text-rendering: optimizelegibility;
+    color: black;
+}
+
+#user-contact-info h1 small {
+    font-size: 24.5px;
+    font-weight: normal;
+    line-height: 1;
+    color: #999;
+}
+
+#user-contact-info .email {
+    padding: 10px;
+    background-color: #2d6987;
+    border-radius: 3px;
+    line-height: 14px;
+    color: #fff;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+    text-decoration: none;
+    width: 165px;
+    margin: 10px 0;
+}
+
+.user-main {
+    padding: 20px 30px;
+    background: #fff;
+    border-radius: 5px;
+}
+
+.user-section {
+    padding: 20px 30px;
+    border-bottom: 1px solid #e7e7e7;
+}
+
+.user-section h2 {
+    font-size: 31.5px;
+    line-height: 40px;
+    margin: 10px 0;
+    font-weight: bold;
+}
+
+.user-section p {
+    margin: 0 0 10px;
+}
