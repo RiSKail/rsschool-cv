@@ -1,1 +1,1 @@
-https://RiSKail.github.io/rsschool-cv/cv
+https://RiSKail.github.io/rsschool-cv/
